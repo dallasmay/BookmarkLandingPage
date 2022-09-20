@@ -1,0 +1,23 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 1.6rem
+}
+.content-container {
+  padding: 4rem 3.5rem;
+}
+
+.mobile-header-container {
+  display: flex;
+  justify-content: space-between;
+}

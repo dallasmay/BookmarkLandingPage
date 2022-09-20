@@ -9,39 +9,53 @@
   <title>Frontend Mentor | Bookmark landing page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-
-  Features
-  Pricing
-  Contact
-  Login
-
-  A Simple Bookmark Manager
-
-  A clean and simple interface to organize your favourite websites. Open a new 
-  browser tab and see your sites load instantly. Try it for free.
-
-  Get it on Chrome
-  Get it on Firefox
-
-  Features
-
+  <div class="content-container">
+    <header>
+      <div class="mobile-header-container">
+        <div class="logo-container">
+          <img src="./images/logo-bookmark.svg" alt="Bookmark logo">
+        </div>
+        <div class="hamburger-container">
+          <img src="./images/icon-hamburger.svg">
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li>Features</li>
+          <li>Pricing</li>
+          <li>Contact</li>
+          <li>Login</li>
+        </ul>
+      </nav>
+    </header>
+    <div class="hero-svg-container">
+      <img src="./images/illustration-hero.svg" alt="">
+    </div>
+  <h1>A Simple Bookmark Manager</h1>
+  <p>A clean and simple interface to organize your favourite websites. Open a new 
+  browser tab and see your sites load instantly. Try it for free.</p>
+  <button>Get it on Chrome</button>
+  <button>Get it on Firefox</button>
+  <h2>Features</h2>
+  <p>
   Our aim is to make it quick and easy for you to access your favourite websites. 
   Your bookmarks sync between your devices so you can access them on the go.
+  </p>
+  <ul>
+    <li>Simple Bookmarking</li>
+    <li>Speedy Searching</li>
+    <li>Easy Sharing</li>
+  </ul>
+  <div class="features-svg-container-1">
+    <img src="./images/illustration-features-tab-1.svg" alt="Illustration of web bookmarks">
+  </div>
+  <h3>Bookmark in one click</h3>
 
-  Simple Bookmarking
-  Speedy Searching
-  Easy Sharing
-
-  Bookmark in one click
-
-  Organize your bookmarks however you like. Our simple drag-and-drop interface 
-  gives you complete control over how you manage your favourite sites.
+  <p>Organize your bookmarks however you like. Our simple drag-and-drop interface 
+  gives you complete control over how you manage your favourite sites.</p>
 
   More Info
 
@@ -59,27 +73,34 @@
 
   More Info
 
-  Download the extension
+  <h2>Download the extension</h2>
+  <p>We've got more browsers in the pipeline. Please do let us know if you've 
+  got a favourite you'd like us to prioritize.</p>
+  <div class="browser-card">
+    <img src="./images/logo-chrome.svg" alt="Chrome logo. Circle split into three sections, the top is a pale red, the right is a pale yellow, and the left is a leaf green. All of these surround a pale blue circle in the middle">
+    <h3>Add to Chrome</h3>
+    <p>Minimum version 62</p>
+    <img src="./images/bg-dots.svg">
+    <button>Add & Install Extension</button>
+  </div>
+  <div class="browser-card">
+    <img src="./images/logo-firefox.svg" alt="Firefox logo. Illustration of an orange fox in the shape of almost a full circle">
+    <h3>Add to Firefox</h3>
+    <p>Minimum version 55</p>
+    <img src="./images/bg-dots.svg">
+    <button>Add & Install Extension</button>
+  </div>
+  <div class="browser-card">
+    <img src="./images/logo-opera.svg" alt="Opera logo. A pretty boring pale red 'O'">
+    <h3>Add to Opera</h3>
+    <p>Minimum version 46</p>
+    <img src="./images/bg-dots.svg">
+    <button>Add & Install Extension</button>
+  </div>
 
-  We’ve got more browsers in the pipeline. Please do let us know if you’ve 
-  got a favourite you’d like us to prioritize.
-
-  Add to Chrome
-  Minimum version 62
-  Add & Install Extension
-
-  Add to Firefox
-  Minimum version 55
-  Add & Install Extension
-
-  Add to Opera
-  Minimum version 46
-  Add & Install Extension
-
-  Frequently Asked Questions
-  
-  Here are some of our FAQs. If you have any other questions you’d like 
-  answered please feel free to email us.
+  <h2>Frequently Asked Questions</h2>
+  <p>Here are some of our FAQs. If you have any other questions you'd like 
+  answered please feel free to email us.</p>
 
   <!-- Question 1 -->
   What is Bookmark?
@@ -116,19 +137,21 @@
 
   35,000+ already joined
 
-  Stay up-to-date with what we’re doing
+  <h2>Stay up-to-date with what we're doing</h2>
+  <input type="text">
+  <button>Contact Us</button>
 
-  Contact Us
-
-  Features
-  Pricing
-  Contact
+  
   
   <footer>
+    Features
+    Pricing
+    Contact
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
     </p>
   </footer>
+  </div>
 </body>
 </html>
