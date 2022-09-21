@@ -1,3 +1,11 @@
+:root {
+  --softblue: hsl(231, 69%, 60%);
+  --softred: hsl(0, 94%, 66%);
+
+  --greyBlue: hsl(229, 8%, 60%);
+  --darkblue: rgb(37, 43, 70);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -5,18 +13,60 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+*{
+  box-sizing: border-box;
+}
 html {
   font-size: 62.5%;
 }
 body {
   padding: 0;
   margin: 0;
-  font-size: 1.6rem
+  font-size: 1.6rem;
+  font-family: 'Rubik', sans-serif;
 }
+/* -------MOBILE MENU NAV------- */
+.nav-menu-mobile-container {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(37, 43, 70, .95);
+}
+.nav-menu-mobile-content-container {
+  padding: 4rem 3.5rem;
+}
+.nav-menu-mobile-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 4rem 0;
+}
+.nav-menu-mobile-links {
+  color: #FFF;
+  padding: 0;
+  list-style: none;
+}
+.nav-menu-mobile-links li {
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 2rem 5rem;
+  letter-spacing: .3rem;
+  border-top: solid 1px var(--greyBlue);
+}
+.nav-menu-mobile-login-btn {
+  font-family: 'Rubik', sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: .3rem;
+  color: #FFF;
+  background-color: rgb(37, 43, 70, .95);
+  border: solid #FFF 2px;
+  width: 100%;
+}
+/* ----------------------------- */
 .content-container {
   padding: 4rem 3.5rem;
 }
-
 .mobile-header-container {
   display: flex;
   justify-content: space-between;
