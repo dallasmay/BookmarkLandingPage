@@ -25,6 +25,9 @@ body {
   font-size: 1.6rem;
   font-family: 'Rubik', sans-serif;
 }
+.fixed-position {
+  position: fixed;
+}
 /* -------MOBILE MENU NAV------- */
 .nav-menu-mobile-container {
   position: fixed;
@@ -33,7 +36,7 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: rgb(37, 43, 70, .95);
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-between;
 }
