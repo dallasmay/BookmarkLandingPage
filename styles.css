@@ -28,6 +28,21 @@ body {
 .fixed-position {
   position: fixed;
 }
+h1 {
+  font-weight: 500;
+}
+h2 {
+  font-weight: 500;
+  text-align: center;
+}
+h3 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  text-align: center;
+}
+p {
+  color: var(--greyBlue);
+}
 /* -------MOBILE MENU NAV------- */
 .nav-menu-mobile-container {
   position: fixed;
@@ -39,6 +54,7 @@ body {
   display: none;
   flex-direction: column;
   justify-content: space-between;
+  z-index: 500;
 }
 .nav-menu-mobile-content-container {
   padding: 4rem 3.5rem;
@@ -92,4 +108,92 @@ body {
 .mobile-header-container {
   display: flex;
   justify-content: space-between;
+  margin: 0 0 6.3rem 0;
+}
+.hero-svg-container {
+  position: relative;
+}
+.hero-svg {
+  width: 100%;
+}
+.blue-background-shape {
+  background-color: var(--softblue);
+  position: absolute;
+  height: 80%;
+  width: 95%;
+  top: 50px;
+  right: -40px;
+  z-index: -20;
+  border-radius: 0 0 0 10rem;
+}
+.title-heading {
+  text-align: center;
+  margin: 5rem 0 0 0;
+}
+.p-copy {
+  text-align: center;
+  line-height: 1.5;
+}
+.browser-btn-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0 13rem 0;
+}
+.blue-btn {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  color: #FFF;
+  background-color: var(--softblue);
+  border: none;
+  padding: 1.4rem 1.9rem;
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px rgb(0, 0, 0, .2);
+}
+.light-btn {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  color: rgb(87, 87, 87);
+  background-color: rgb(245, 245, 245);
+  border: none;
+  padding: 1.4rem 1.9rem;
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px rgb(0, 0, 0, .2);
+}
+.feature-toggles {
+  color: #000;
+  padding: 0;
+  list-style: none;
+}
+.feature-toggles li {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 1.8rem 5rem 0 5rem;
+  border-top: solid 1px var(--greyBlue);
+}
+.feature-toggles li:nth-child(3) {
+  border-bottom: solid 1px var(--greyBlue);
+}
+.active-link-underline {
+  border-bottom: solid 4px var(--softred);
+  width: 75%;
+  margin: 0 auto 0 auto;
+  padding: 1.4rem 0 0 0;
+}
+.feature-2-toggle, .feature-3-toggle {
+  border-color: #FFF;
+}
+.features-svg-container-1 {
+  position: relative;
+  margin: 7rem 0 6rem 0;
+}
+.blue-background-shape-2 {
+  background-color: var(--softblue);
+  position: absolute;
+  height: 95%;
+  width: 95%;
+  top: 40px;
+  left: -35px;
+  z-index: -50;
+  border-radius: 0 0 10rem 0;
 }
